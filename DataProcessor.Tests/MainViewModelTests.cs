@@ -1,7 +1,6 @@
 ﻿using NUnit.Framework;
 using System.Threading.Tasks;
 using TestHelpers;
-using System.Linq;
 
 namespace DataProcessor.Tests
 {

@@ -88,7 +88,7 @@ namespace DataProcessor
 
         #region Methods
 
-        internal void StartProcess()
+        public void StartProcess()
         {
             if (!backgroundWorker.IsBusy)
                 backgroundWorker.RunWorkerAsync(Iterations);
@@ -98,7 +98,7 @@ namespace DataProcessor
             Output = string.Empty;
         }
 
-        internal void CancelProcess()
+        public void CancelProcess()
         {
             backgroundWorker.CancelAsync();
         }
